@@ -32,7 +32,7 @@ Template Name: Home Page
 	$count = 1;
 	?>
 <div class="fade-delay">
-<a name="recentprojects"></a>
+<a id="recentprojects"></a>
 <h1 class="home-h1">RECENT PROJECTS</h1>
 <div class="underscore-top"></div>
 <div class="home-projects">

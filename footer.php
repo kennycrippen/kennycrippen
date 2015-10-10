@@ -1,10 +1,10 @@
 	</div><!-- #main -->
 	</div><!-- #container -->
-	<div id="footer" class="fade-delay">
-			<p>&copy; Copyright 2015 Kenny Crippen & Head Thunder Design, LLC. I get by with a little help from my <a href="friends">friends</a>.</p>
+	<div id="footer">
+			<p>&copy; Copyright 2015 Kenny Crippen. I get by with a little help from my <a href="friends">friends</a>.</p>
 	</div><!-- #footer -->
 <!-- Tell WP this is the footer -->
-<?php  wp_footer(); ?>
+<?php wp_footer(); ?>
   <script>
   document.write('<script src=' +
   ('__proto__' in {} ? '<?php  echo get_template_directory_uri(); ?>/js/vendor/zepto' : 'js/vendor/jquery') +
@@ -25,32 +25,5 @@
   ga('send', 'pageview');
 
   </script>
-  <!-- BUILT WITH THE POWER OF THE DARKSIDE
-                       .-.
-                      |_:_|
-                     /(_Y_)\
-                    ( \/M\/ )
- '.               _.'-/'-'\-'._
-   ':           _/.--'[[[[]'--.\_
-     ':        /_'  : |::"| :  '.\
-       ':     //   ./ |oUU| \.'  :\
-         ':  _:'..' \_|___|_/ :   :|
-           ':.  .'  |_[___]_|  :.':\
-            [::\ |  :  | |  :   ; : \
-             '-'   \/'.| |.' \  .;.' |
-             |\_    \  '-'   :       |
-             |  \    \ .:    :   |   |
-             |   \    | '.   :    \  |
-             /       \   :. .;       |
-            /     |   |  :__/     :  \\
-           |  |   |    \:   | \   |   ||
-          /    \  : :  |:   /  |__|   /|
-      snd |     : : :_/_|  /'._\  '--|_\
-          /___.-/_|-'   \  \
-                         '-'
-
-ACII Art by Shanaka Dias
-
--->
 </body>
 </html>

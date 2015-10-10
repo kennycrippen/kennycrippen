@@ -33,4 +33,10 @@ jQuery(document).ready(function($) {
 		}, 100);
 	});
 
+	$("#workscroll").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $("#recentprojects").offset().top
+	    }, 200);
+	});
+
 }); // End Documnet Ready for the entire custom.js file
