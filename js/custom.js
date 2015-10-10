@@ -33,15 +33,4 @@ jQuery(document).ready(function($) {
 		}, 100);
 	});
 
-	// initiate flexslider
-	$('.flexslider').flexslider({
-	    animation: 'slide',
-	    pauseOnHover: true,
-	    pauseOnAction: true,
-	    touch: true,
-	    controlNav: false
-	  });
-
-
-
 }); // End Documnet Ready for the entire custom.js file
