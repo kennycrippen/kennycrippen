@@ -200,9 +200,8 @@ div#header {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	top: -139px;
+	top: 0;
 	position: relative;
-	opacity: 0;
 }
 
 div.header-inner {
@@ -229,7 +228,6 @@ body.home .row {
 }
 
 div.kenny {
-	opacity: 0;
 	width: 261px;
 	height: 291px;
 	margin: 0 auto 35px auto;
@@ -263,10 +261,6 @@ div.home-project-hover {
 
 body.safari div.home-project-hover {
 	margin: -188px 0 0 11.5px;
-}
-
-div.fade-delay, div.fade-delay-fast {
-	opacity: 0;
 }
 
 div.social {
