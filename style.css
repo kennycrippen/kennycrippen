@@ -1,0 +1,479 @@
+/**
+ * Theme Name: Kenny Crippen
+ * Theme URI: http://www.kennycrippen.com
+ * Description: This is where the magic starts
+ * Author: Kenny Crippen
+ * Author URI: http://www.kennycrippen.com
+ * Version: 0.1
+ * License: GNU General Public License v2.0
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+
+/* Typography */
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 2703491, 2013-12-06T23:19:12-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Museo Sans 500 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo-sans/500/
+ * Copyright: Copyright (c) 2008 by Jos Buivenga. All rights reserved.
+ * Licensed pageviews: Unlimited
+ *
+ * Webfont: Novecento Sans Wide Bold by Synthview
+ * URL: http://www.myfonts.com/fonts/synthview/novecento/wide-bold/
+ * Copyright: Copyright &#x00A9; 2013 by Jan Tonellato. All rights reserved.
+ * Licensed pageviews: Unlimited
+ *
+ * Webfont: Novecento Sans Wide Book by Synthview
+ * URL: http://www.myfonts.com/fonts/synthview/novecento/wide-book/
+ * Copyright: Copyright &#x00A9; 2013 by Jan Tonellato. All rights reserved.
+ * Licensed pageviews: Unlimited
+ *
+ * Webfont: Novecento Sans Wide DemiBold by Synthview
+ * URL: http://www.myfonts.com/fonts/synthview/novecento/wide-demibold/
+ * Copyright: Copyright &#x00A9; 2013 by Jan Tonellato. All rights reserved.
+ * Licensed pageviews: Unlimited
+ *
+ * Webfont: Novecento Sans Wide Light by Synthview
+ * URL: http://www.myfonts.com/fonts/synthview/novecento/wide-light/
+ * Copyright: Copyright &#x00A9; 2013 by Jan Tonellato. All rights reserved.
+ * Licensed pageviews: Unlimited
+ *
+ * Webfont: Novecento Sans Wide Medium by Synthview
+ * URL: http://www.myfonts.com/fonts/synthview/novecento/wide-medium/
+ * Copyright: Copyright &#x00A9; 2013 by Jan Tonellato. All rights reserved.
+ * Licensed pageviews: Unlimited
+ *
+ * Webfont: Novecento Sans Wide Normal by Synthview
+ * URL: http://www.myfonts.com/fonts/synthview/novecento/wide-normal/
+ * Copyright: Copyright &#x00A9; 2013 by Jan Tonellato. All rights reserved.
+ * Licensed pageviews: Unlimited
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2703491
+ *
+ * � 2013 MyFonts Inc
+*/
+
+
+
+
+
+@font-face {font-family: 'MuseoSans-500';src: url('webfonts/294083_0_0.eot');src: url('webfonts/294083_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/294083_0_0.woff') format('woff'),url('webfonts/294083_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Novecentosanswide-Bold';src: url('webfonts/294083_1_0.eot');src: url('webfonts/294083_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/294083_1_0.woff') format('woff'),url('webfonts/294083_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Novecentosanswide-Book';src: url('webfonts/294083_2_0.eot');src: url('webfonts/294083_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/294083_2_0.woff') format('woff'),url('webfonts/294083_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Novecentosanswide-DemiBold';src: url('webfonts/294083_3_0.eot');src: url('webfonts/294083_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/294083_3_0.woff') format('woff'),url('webfonts/294083_3_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Novecentosanswide-Light';src: url('webfonts/294083_4_0.eot');src: url('webfonts/294083_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/294083_4_0.woff') format('woff'),url('webfonts/294083_4_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Novecentosanswide-Medium';src: url('webfonts/294083_5_0.eot');src: url('webfonts/294083_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/294083_5_0.woff') format('woff'),url('webfonts/294083_5_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Novecentosanswide-Normal';src: url('webfonts/294083_6_0.eot');src: url('webfonts/294083_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/294083_6_0.woff') format('woff'),url('webfonts/294083_6_0.ttf') format('truetype');}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal !important;
+}
+
+
+h1.home-h1, h2 {
+	font-family: 'Novecentosanswide-Medium', Helvetica, sans-serif;
+	font-size: 14px !important;
+	text-transform: uppercase;
+	padding: 0 30px;
+}
+
+h1.project-long-name {
+	font-family: 'Novecentosanswide-Medium', Helvetica, sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 30px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+p.hm-about, p.home-project-title {
+	font-size: 12px;
+	line-height: 24px;
+	font-family: 'MuseoSans-500', Helvetica, sans-serif;
+	padding: 0 30px;
+}
+
+p.project-blurb {
+	font-size: 12px;
+	line-height: 24px;
+	font-family: 'MuseoSans-500', Helvetica, sans-serif;
+	text-align: center;
+	max-width: 781px;
+	margin: 0 auto 20px auto;
+	padding: 0 30px;
+}
+
+p.home-project-title {
+	margin: 10px auto 40px auto;
+}
+
+div.underscore-top {
+	width: 75px;
+	border-top: 1px solid #cdcdcd;
+	height: 1px;
+	margin: 18px auto 20px auto;
+	display: block;
+}
+
+div.underscore-bottom {
+	width: 75px;
+	border-top: 1px solid #cdcdcd;
+	height: 1px;
+	margin: 0 auto 20px auto;
+	display: block;
+}
+
+/* Default Link Styles */
+a:link {
+  color: #ec0a90;
+  text-decoration: none;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #2795b6; }
+  a:visited {
+	  color: #ec0a90;
+  }
+  a img {
+    border: none; }
+
+/* Structure */
+
+span.wpengine-promo {
+	display: none;
+	visibility: hidden;
+}
+
+body {
+	background: #fff;
+	color: #3a3d3d;
+}
+
+div#content {
+	padding: 0;
+	margin: 30px auto 0 auto;
+}
+
+div.clear {
+	clear: both;
+	width: 100%;
+}
+
+div.nopadding {
+	padding: 0;
+}
+
+/* Projects Slider */
+
+div.projects-slider {
+
+}
+
+/* Header */
+
+div#header {
+	background: #f1f1f1;
+	height: auto;
+	border-bottom: 1px solid #ebebef;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	top: -139px;
+	position: relative;
+	opacity: 0;
+}
+
+div.header-inner {
+	margin: 0 auto;
+	padding: 0 30px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+img.logo {
+	margin: 20px auto 25px auto;
+	display: block;
+}
+
+/* HOME */
+
+body.home {
+	text-align: center;
+}
+
+body.home .row {
+	max-width: 781px !important;
+}
+
+div.kenny {
+	opacity: 0;
+	width: 261px;
+	height: 291px;
+	margin: 0 auto 35px auto;
+}
+
+img.kenny-color {
+	position: relative;
+	margin-top: -312px;
+	display: none;
+}
+
+div.home-projects {
+	margin: 50px auto 0 auto;
+	padding: 0 30px;
+}
+
+div.home-project-image img {
+	border-radius: 50%;
+	width: 189px;
+	height: 189px;
+}
+
+div.home-project-hover {
+	width: 189px;
+	height: 189px;
+	background: url('images/project-hover.png') no-repeat top center;
+	margin: -188px auto 0 auto;
+	position: relative;
+	opacity: 0;
+}
+
+body.safari div.home-project-hover {
+	margin: -188px 0 0 11.5px;
+}
+
+div.fade-delay, div.fade-delay-fast {
+	opacity: 0;
+}
+
+div.social {
+	margin: 40px auto 90px auto;
+}
+
+div.social img {
+	margin-right: 10px;
+}
+
+div.social img.last {
+	margin-right: 0;
+}
+
+/* Single Project Page */
+
+div.contributors, div.empty {
+	background: #e2e2e2;
+	min-height: 300px;
+}
+
+body.ie8 div.empty {
+	display: none;
+}
+
+div.skills {
+	background: #f1f1f1;
+	min-height: 300px;
+}
+
+div.contributors .contributors-content, div.skills .skills-content {
+	margin: 40px;
+}
+
+div.contributors ul li, div.skills ul li {
+	margin-left: 18px;
+	font-size: 12px;
+	line-height: 24px;
+	font-family: 'MuseoSans-500', Helvetica, sans-serif;
+}
+
+div.back-home {
+	padding: 0 30px;
+	float: right;
+	margin-bottom: -20px;
+}
+
+div.back-home a:hover {
+	opacity: 0.8;
+}
+
+
+/* Friends Page/Blank Template */
+
+body.page-template-templatesblank-php {
+	text-align: center;
+}
+
+body.page-template-templatesblank-php div.blank a {
+	font-size: 12px;
+	line-height: 24px;
+	font-family: 'MuseoSans-500', Helvetica, sans-serif;
+	display: block;
+}
+
+body.page-template-templatesblank-php h1 {
+	font-family: 'Novecentosanswide-Medium', Helvetica, sans-serif;
+	font-size: 14px !important;
+	text-transform: uppercase;
+	padding: 0 30px;
+	margin-top: 30px;
+}
+
+/* Footer */
+
+div#footer {
+	margin: 180px auto 0 auto;
+	padding: 0 30px;
+	width: 100%;
+	text-align: center;
+}
+
+div#footer p {
+	font-size: 10px;
+	font-family: 'MuseoSans-500', Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/* VENDOR */
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {margin: 0; padding: 0; overflow: hidden; max-height: 535px;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider { margin: 50px 0 30px; background: #fff;  position: relative; zoom: 1; }
+.flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.loading .flex-viewport { max-height: 300px; }
+.flexslider .slides { zoom: 1; }
+.carousel li { margin-right: 5px; }
+
+/* Direction Nav */
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a  { display: block; width: 35px; height: 65px; margin: -32px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
+.flex-direction-nav li { list-style: none; }
+.flex-direction-nav .flex-prev { left: 0; }
+.flex-direction-nav .flex-next { right: 0; text-align: right; }
+.flexslider:hover .flex-prev { opacity: 0.7; left: 0; }
+.flexslider:hover .flex-next { opacity: 0.7; right: 0; }
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+.flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
+/*
+.flex-direction-nav a:before  { font-family: "flexslider-icon"; font-size: 40px; display: inline-block; content: '\f001'; }
+.flex-direction-nav a.flex-next:before  { content: '\f002'; }
+*/
+
+.flex-direction-nav a.flex-prev  { background: url('images/prev-arrow.png') no-repeat top center; font-size: 0px; }
+.flex-direction-nav a.flex-next  { background: url('images/next-arrow.png') no-repeat top center; font-size: 0px;e }
+
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom: -40px; text-align: center;}
+.flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {width: 11px; height: 11px; display: block; background: #666; background: rgba(0,0,0,0.5); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -o-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); box-shadow: inset 0 0 3px rgba(0,0,0,0.3); }
+.flex-control-paging li a:hover { background: #333; background: rgba(0,0,0,0.7); }
+.flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.9); cursor: default; }
+
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+@media screen and (max-device-width: 860px) {
+  .flex-direction-nav .flex-prev { opacity: 0; left: 0; display: none;}
+  .flex-direction-nav .flex-next { opacity: 0; right: 0; display: none;}
+}
+
+
+
+/* iPad */
+@media only screen
+and (min-width : 569px)
+and (max-width : 768px)  {
+	div.empty { display: none; }
+	div.contributors, div.skills { height: auto; min-height: 5px; }
+} /* End Media Query */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+	div.home-project-hover {
+		display: none;
+	}
+	div.empty { display: block; }
+	div.contributors, div.skills { height: auto; min-height: 300px; }
+} /* End Media Query */
+
+/* iPhone 5 */
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 568px) {
+	div.back-home {
+		display: none;
+	}
+	div.empty { display: none; }
+	div.contributors, div.skills { height: auto; min-height: 5px; }
+} /* End Media Query */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+	div.home-project-hover {
+		display: none;
+	}
+	div.empty { display: none; }
+	div.contributors, div.skills { height: auto; min-height: 5px; }
+} /* End Media Query */
+
+
+/* iPhone 4 */
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+	div.back-home {
+		display: none;
+	}
+	div.empty { display: none; }
+	div.contributors, div.skills { height: auto; min-height: 5px; }
+} /* End Media Query */
