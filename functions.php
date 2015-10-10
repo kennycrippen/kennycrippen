@@ -5,8 +5,6 @@
 /*-----------------------------------------------------------------------------------*/
 
 include("admin/custom-post-types.php");
-include("admin/custom-taxonomies.php");
-
 
 /*-----------------------------------------------------------------------------------*/
 /*	Remove auto paragraph
@@ -51,7 +49,7 @@ function bh_register_js() {
 		/* Register Scripts */
 		wp_deregister_script('jquery');
 		wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' );
-		wp_register_script('custom', get_template_directory_uri() . '/js/custom.js', 'jquery');
+		wp_register_script('production', get_template_directory_uri() . '/js/build/production.min.js', 'jquery');
 
 	}
 }
@@ -69,8 +67,8 @@ function bh_enqueue_js() {
 
 		/* Enqueue Scripts On Every Page */
 		wp_enqueue_script( 'jquery');
-		wp_enqueue_script( 'custom');
-		
+		wp_enqueue_script( 'production');
+
 		}
 	}
 	add_action('wp_print_scripts', 'bh_enqueue_js');
