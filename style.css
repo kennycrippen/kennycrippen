@@ -18,6 +18,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
+	color: #4e8f8c;
 }
 
 
@@ -82,7 +83,7 @@ a:link {
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #2795b6; }
+    color: #4e8f8c; }
   a:visited {
 	  color: #ec0a90;
   }
@@ -156,7 +157,7 @@ img.logo {
 	text-align: center;
 }
 
-.home .row {
+.home #content {
 	max-width: 781px;
 }
 

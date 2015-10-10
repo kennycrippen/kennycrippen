@@ -13,7 +13,7 @@ Template Name: Home Page
 	<div class="fade-delay">
 		<h1 class="home-h1">WELL, HELLO.</h1>
 		<div class="underscore-top"></div>
-		<p class="hm-about">I design and build websites in the wonderful city of Portland, Oregon. I am currently working for an awesome company called <a href="http://www.speakdesign.com">Speak&#33;</a> in the heart of downtown Hillsboro. A few exciting technologies I'm currently loving are Sass, jQuery, Bourbon Neat, Grunt, Git and WordPress. If you're interested in hiring me for a freelance project or full time position feel free to call me up at 503-863-9697, check out my <a href="<?php  echo get_template_directory_uri(); ?>/kennycrippen-cv.pdf" target="_blank">r&eacute;sum&eacute;</a> or send me an <a href="mailto:kennycrippen@gmail.com">email</a>.</p>
+		<p class="hm-about">I design and build websites in the wonderful city of Portland, Oregon. I am currently freelancing full time. A few exciting technologies I&#8217;m currently enjoying are Sass, jQuery, Bootstrap, Grunt, Git and WordPress. If you&#8217;re interested in hiring me for a freelance project or full time position feel free to call me up at 503&#8209;863&#8209;9697, check out my <a href="<?php  echo get_template_directory_uri(); ?>/kennycrippen-cv.pdf" target="_blank">r&eacute;sum&eacute;</a> or send me an <a href="mailto:hello@kennycrippen.com">email</a>.</p>
 		<div class="underscore-bottom"></div>
 		<div class="social">
 			<a href="http://www.instagram.com/kennycrippen" target="_blank"><img width="21" alt="Instagram Icon" src="<?php  echo get_template_directory_uri(); ?>/images/icon/ig.png" /></a>
@@ -25,7 +25,7 @@ Template Name: Home Page
 		</div>
 	</div>
 </div>
-<?php 
+<?php
 	$query = new WP_Query();
 	$query->query(array('post_type'                 => 'project','posts_per_page'            => -1,));
 	$post_count = $query->post_count;
@@ -36,8 +36,8 @@ Template Name: Home Page
 <h1 class="home-h1">RECENT PROJECTS</h1>
 <div class="underscore-top"></div>
 <div class="home-projects">
-<?php 
-	
+<?php
+
 	if ($query->have_posts()) :
 	while ($query->have_posts()) :
 	$query->the_post();
