@@ -29,7 +29,8 @@
 			</a>
 			<nav>
 				<a href="#recentprojects" id="workscroll">WORK</a>
-				<a href="#">BLOG</a>
+				<a class="hide-home" href="<?php bloginfo('url'); ?>/#recentprojects">WORK</a>
+				<a href="<?php bloginfo('url'); ?>/blog">BLOG</a>
 			</nav>
 			</div><!-- .header-inner -->
 			</div><!-- .row -->

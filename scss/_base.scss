@@ -143,6 +143,19 @@ nav {
 	}
 }
 
+#workscroll {
+	display: none;
+}
+
+.home {
+	#workscroll {
+		display: inline-block;
+	}
+	.hide-home {
+		display: none;
+	}
+}
+
 .logo {
 	display: block;
 	margin: 0 auto;
@@ -192,7 +205,7 @@ nav {
 div.home-project-hover {
 	width: 189px;
 	height: 189px;
-	background: url('images/project-hover.png') no-repeat top center;
+	background: url('../images/project-hover.png') no-repeat top center;
 	margin: -188px auto 0 auto;
 	position: relative;
 	opacity: 0;
@@ -236,7 +249,7 @@ div.contributors .contributors-content, div.skills .skills-content {
 
 div.contributors ul li, div.skills ul li {
 	margin-left: 18px;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 24px;
 	font-family: 'futura-pt', Helvetica, sans-serif;
 }
@@ -259,7 +272,7 @@ body.page-template-templatesblank-php {
 }
 
 body.page-template-templatesblank-php div.blank a {
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 24px;
 	font-family: 'futura-pt', Helvetica, sans-serif;
 	display: block;
