@@ -10,8 +10,8 @@ include("admin/custom-post-types.php");
 /*	Remove auto paragraph
 /*-----------------------------------------------------------------------------------*/
 
-remove_filter( 'the_content', 'wpautop' );
-remove_filter( 'the_excerpt', 'wpautop' );
+// remove_filter( 'the_content', 'wpautop' );
+// remove_filter( 'the_excerpt', 'wpautop' );
 
 
 /*-----------------------------------------------------------------------------------*/

@@ -8,10 +8,9 @@
 	?></title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width" />
-<link rel="icon" type="image/png" href="<?php  echo get_template_directory_uri(); ?>/images/favicon.png" />
+<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css" />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" media="all" />
-
 <!-- Tell WP this is the header -->
 <?php wp_head(); ?>
 <script async src="<?php echo get_template_directory_uri(); ?>/js/vendor/custom.modernizr.js"></script>

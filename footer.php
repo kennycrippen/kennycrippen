@@ -5,15 +5,6 @@
 	</div><!-- #footer -->
 <!-- Tell WP this is the footer -->
 <?php wp_footer(); ?>
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? '<?php  echo get_template_directory_uri(); ?>/js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
-  <script src="<?php  echo get_template_directory_uri(); ?>/js/foundation.min.js"></script>
-  <script>
-    $(document).foundation();
-  </script>
   <!--   Google Analytics -->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -21,7 +21,7 @@ Template Name: Home Page
 			<a href="http://twitter.com/kennycrippen" target="_blank"><img width="21" alt="Twitter Icon" src="<?php  echo get_template_directory_uri(); ?>/images/icon/twitter.png" /></a>
 			<a href="http://www.linkedin.com/in/kennycrippen/" target="_blank"><img width="21" alt="LinkedIn Icon" src="<?php  echo get_template_directory_uri(); ?>/images/icon/in.png" /></a>
 			<a href="<?php  echo get_template_directory_uri(); ?>/kennycrippen-cv.pdf" target="_blank"><img width="21" alt="R&eacute;sum&eacute; Icon" src="<?php  echo get_template_directory_uri(); ?>/images/icon/resume.png" /></a>
-			<a href="mailto:kennycrippen@gmail.com"><img class="last" width="21" alt="Email Icon" src="<?php  echo get_template_directory_uri(); ?>/images/icon/email.png" /></a>
+			<a href="mailto:hello@kennycrippen.com"><img class="last" width="21" alt="Email Icon" src="<?php  echo get_template_directory_uri(); ?>/images/icon/email.png" /></a>
 		</div>
 	</div>
 </div>
