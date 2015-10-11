@@ -1,7 +1,7 @@
 	</div><!-- #main -->
 	</div><!-- #container -->
 	<div id="footer">
-			<p>&copy; Copyright 2015 Kenny Crippen. I get by with a little help from my <a href="friends">friends</a>.</p>
+			<p>&copy; Copyright 2015 Kenny Crippen.</p>
 	</div><!-- #footer -->
 <!-- Tell WP this is the footer -->
 <?php wp_footer(); ?>

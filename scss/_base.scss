@@ -29,6 +29,10 @@ h1.project-long-name, h1 {
 	font-weight: $fontweightheavy;
 }
 
+h1.blog-title {
+	margin: 60px auto 10px auto;
+}
+
 p.hm-about, p.home-project-title, p {
 	font-size: 14px;
 	line-height: 24px;
@@ -80,6 +84,36 @@ a:link {
   a img {
     border: none; }
 
+// Buttons
+.button {
+	background: $lightgreen;
+	color: white;
+	padding: 8px;
+	border-bottom: 2px solid darken($lightgreen, 10%);
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	max-width: 140px;
+	width: 100%;
+	transition: background .25s ease-out;
+  -moz-transition: background .25s ease-out;
+  -webkit-transition: background .25s ease-out;
+  -o-transition: background .25s ease-out;
+
+	&:link {
+		color: white;
+		text-decoration: none;
+	}
+	&:visited {
+		color: white;
+		text-decoration: none;
+	}
+	&:hover {
+		background: transparent;
+		color: $lightgreen;
+	}
+}
+
 /* Structure */
 
 .wpengine-promo {
@@ -120,20 +154,16 @@ div.header-inner {
 	-webkit-box-sizing: border-box;
 }
 
-.logo-container {
-	background: $lightgray;
-	display: block;
-	width: 144px;
-	padding: 22px;
-	float: left;
-}
-
 nav {
 	float: right;
 	font-family: $fontstack;
 	font-weight: $fontweightheavy;
 	font-size: 14px;
 	margin-top: 72px;
+
+	@media (max-width: 480px) {
+		margin-top: 58px;
+	}
 
 	a {
 		margin-left: 25px;
@@ -150,6 +180,21 @@ nav {
 	}
 	.hide-home {
 		display: none;
+	}
+}
+
+.logo-container {
+	background: $lightgray;
+	display: block;
+	width: 144px;
+	padding: 22px;
+	float: left;
+	position: relative;
+	z-index: 0;
+
+	@media (max-width: 480px) {
+		width: 120px;
+		padding: 17px;
 	}
 }
 
@@ -180,6 +225,12 @@ nav {
 	width: 261px;
 	height: 291px;
 	margin: -60px auto 55px auto;
+	position: relative;
+	z-index: 1;
+
+	@media (max-width: 480px) {
+		margin: -10px auto 55px auto;
+	}
 }
 
 .kenny-color {
