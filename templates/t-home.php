@@ -2,7 +2,7 @@
  /*
 Template Name: Home Page
 */ ?>
-<?php  get_header();// Load the header.php template.  ?>
+<?php get_header();// Load the header.php template.  ?>
 <div class="row">
 <div id="content">
 <div class="about">
@@ -44,14 +44,14 @@ Template Name: Home Page
 	?>
 	<div class="large-4 column">
 		<a href="<?php  the_permalink(); ?>">
-			<div class="home-project-image"><div><?php  the_post_thumbnail(); ?></div><div class="home-project-hover"></div></div>
+			<div class="home-project-image"><div><?php the_post_thumbnail(); ?></div><div class="home-project-hover opacity-zero"></div></div>
 		</a>
-		<p class="home-project-title"><?php  the_title(); ?></p>
+		<p class="home-project-title"><?php the_title(); ?></p>
 	</div>
-<?php  endwhile; ?>
-<?php  endif; ?>
+<?php endwhile; ?>
+<?php endif; ?>
 </div>
 </div>
 </div><!-- #content -->
 </div><!-- .row -->
-<?php  get_footer();// Load the footer.php template.  ?>
+<?php get_footer();// Load the footer.php template.  ?>

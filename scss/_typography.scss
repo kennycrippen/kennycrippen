@@ -1,0 +1,71 @@
+// Typography
+
+body {
+	font-size: 16px;
+	background: #fff;
+	color: #3a3d3d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: $lightgreen;
+}
+
+h1.home-h1, h2 {
+	font-family: $fontstack;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: $fontweightheavy;
+}
+
+h1.project-long-name, h1 {
+	font-family: $fontstack;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 30px;
+	max-width: 500px;
+	margin: 0 auto;
+	font-weight: $fontweightheavy;
+}
+
+h1.blog-title {
+	margin: 20px auto 10px auto;
+}
+
+p.hm-about, p.home-project-title, p {
+	font-size: 14px;
+	line-height: 24px;
+	font-family: $fontstack;
+	padding: 0 30px;
+}
+
+.project-blurb p {
+	font-size: 14px;
+	line-height: 24px;
+	font-family: $fontstack;
+	text-align: center;
+	max-width: 781px;
+	margin: 0 auto 20px auto;
+	padding: 0 30px;
+}
+
+p.home-project-title {
+	margin: 10px auto 40px auto;
+}
+
+.underscore-top {
+	width: 75px;
+	border-top: 2px dotted $gray;
+	height: 1px;
+	margin: 18px auto 20px auto;
+	display: block;
+}
+
+div.underscore-bottom {
+	width: 75px;
+	border-top: 2px dotted $gray;
+	height: 1px;
+	margin: 0 auto 20px auto;
+	display: block;
+}

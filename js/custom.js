@@ -22,15 +22,11 @@ jQuery(document).ready(function($) {
 
 	// home project hovers
 	$('div.home-project-image').mouseenter(function() {
-		$('div.home-project-hover', this).animate({
-			opacity: 1
-		}, 200);
+		$('div.home-project-hover', this).removeClass('opacity-zero').addClass('opacity-one');
 	});
 
 	$('div.home-project-image').mouseleave(function() {
-		$('div.home-project-hover', this).animate({
-			opacity: 0
-		}, 100);
+		$('div.home-project-hover', this).addClass('opacity-zero').removeClass('opacity-one');
 	});
 
 	$("#workscroll").click(function() {

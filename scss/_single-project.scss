@@ -1,0 +1,45 @@
+// Single Project Page
+.slides {
+  li {
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+div.contributors, div.empty {
+	background: #e2e2e2;
+	min-height: 300px;
+}
+
+body.ie8 div.empty {
+	display: none;
+}
+
+div.skills {
+	background: #f1f1f1;
+	min-height: 300px;
+}
+
+div.contributors .contributors-content, div.skills .skills-content {
+	margin: 40px;
+}
+
+div.contributors ul li, div.skills ul li {
+	margin-left: 18px;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: $fontstack;
+}
+
+div.back-home {
+	padding: 0 30px;
+	float: right;
+	margin-bottom: -20px;
+}
+
+div.back-home a:hover {
+	opacity: 0.8;
+}

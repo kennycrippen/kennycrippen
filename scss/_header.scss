@@ -1,0 +1,75 @@
+// Header
+#header {
+	height: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	top: 0;
+	position: relative;
+}
+
+div.header-inner {
+	margin: 0 auto;
+	padding: 0 30px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+nav {
+	float: right;
+	font-family: $fontstack;
+	font-weight: $fontweightheavy;
+	font-size: 14px;
+	margin-top: 72px;
+
+	@media (max-width: 480px) {
+		margin-top: 58px;
+	}
+
+	a {
+		margin-left: 25px;
+	}
+}
+
+#workscroll {
+	display: none;
+}
+
+.home {
+	#workscroll {
+		display: inline-block;
+	}
+	.hide-home {
+		display: none;
+	}
+}
+
+.logo-container {
+	background: $lightgray;
+	display: block;
+	width: 144px;
+	padding: 22px;
+	float: left;
+	position: relative;
+	z-index: 0;
+
+	@media (max-width: 480px) {
+		width: 120px;
+		padding: 17px;
+	}
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	opacity: 1;
+	transition: opacity .25s ease-out;
+  -moz-transition: opacity .25s ease-out;
+  -webkit-transition: opacity .25s ease-out;
+  -o-transition: opacity .25s ease-out;
+}
+
+.logo:hover {
+	opacity: .7;
+}

@@ -1,0 +1,43 @@
+// Links
+a:link {
+  color: $pink;
+  text-decoration: none;
+  line-height: inherit; }
+	a:visited {
+	  color: $pink;
+  }
+  a:hover, a:focus {
+    color: $lightgreen; }
+
+  a img {
+    border: none; }
+
+// Buttons
+.button {
+	background: $lightgreen;
+	color: white;
+	padding: 8px;
+	border-bottom: 2px solid darken($lightgreen, 10%);
+	margin: 0 auto 60px auto;
+	text-align: center;
+	display: block;
+	max-width: 140px;
+	width: 100%;
+	transition: background .25s ease-out;
+  -moz-transition: background .25s ease-out;
+  -webkit-transition: background .25s ease-out;
+  -o-transition: background .25s ease-out;
+
+	&:link {
+		color: white;
+		text-decoration: none;
+	}
+	&:visited {
+		color: white;
+		text-decoration: none;
+	}
+	&:hover {
+		background: transparent;
+		color: $lightgreen;
+	}
+}

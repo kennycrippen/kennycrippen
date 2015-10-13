@@ -1,0 +1,86 @@
+// Home
+.home {
+	text-align: center;
+}
+
+.home #content, .blog #content, .single-post #content, .archive #content {
+	max-width: 781px;
+}
+
+.kenny {
+	width: 261px;
+	height: 291px;
+	margin: -60px auto 55px auto;
+	position: relative;
+	z-index: 1;
+
+	@media (max-width: 480px) {
+		margin: -10px auto 55px auto;
+	}
+}
+
+.kenny-color {
+	position: relative;
+	margin-top: -312px;
+	display: none;
+}
+
+.home-projects {
+	margin: 50px auto 0 auto;
+	padding: 0 30px;
+}
+
+.home-project-image img {
+	border-radius: 50%;
+	width: 189px;
+	height: 189px;
+}
+
+div.home-project-hover {
+	width: 189px;
+	height: 189px;
+	background: url('../images/project-hover.png') no-repeat top center;
+	margin: -188px auto 0 auto;
+	position: relative;
+}
+
+.opacity-one {
+  opacity: 1;
+  transition: opacity .25s ease-out;
+  -moz-transition: opacity .25s ease-out;
+  -webkit-transition: opacity .25s ease-out;
+  -o-transition: opacity .25s ease-out;
+}
+
+.opacity-zero {
+  opacity: 0;
+  transition: opacity .25s ease-out;
+  -moz-transition: opacity .25s ease-out;
+  -webkit-transition: opacity .25s ease-out;
+  -o-transition: opacity .25s ease-out;
+}
+
+body.safari div.home-project-hover {
+	margin: -188px 0 0 11.5px;
+}
+
+// Social Icons
+div.social {
+	margin: 40px auto 90px auto;
+}
+
+div.social img {
+	margin-right: 10px;
+  transition: opacity .25s ease-out;
+  -moz-transition: opacity .25s ease-out;
+  -webkit-transition: opacity .25s ease-out;
+  -o-transition: opacity .25s ease-out;
+
+  &:hover {
+    opacity: .75;
+  }
+}
+
+div.social img.last {
+	margin-right: 0;
+}
