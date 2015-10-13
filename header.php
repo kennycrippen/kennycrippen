@@ -13,7 +13,6 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" media="all" />
 <!-- Tell WP this is the header -->
 <?php wp_head(); ?>
-<script async src="<?php echo get_template_directory_uri(); ?>/js/vendor/custom.modernizr.js"></script>
 <!-- Typekit -->
 <script src="https://use.typekit.net/dsx4odl.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
