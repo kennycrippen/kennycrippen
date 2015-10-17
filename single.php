@@ -9,6 +9,8 @@
 		}
 	 ?>
 	<h1 class="page-title blog-title"><?php the_title();?></h1>
+ 	<p class="center byline">Posted <?php the_time('F j, Y') ?> by <?php the_author(); ?></p>
+ 	<div class="underscore-bottom"></div>
 	<?php the_content(); ?>
 <?php endwhile; // end of the loop. ?>
 

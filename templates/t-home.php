@@ -44,7 +44,7 @@ Template Name: Home Page
 	?>
 	<div class="large-4 column">
 		<a href="<?php  the_permalink(); ?>">
-			<div class="home-project-image"><div><?php the_post_thumbnail('project-featured-low'); ?></div><div class="home-project-hover opacity-zero"></div></div>
+			<div class="home-project-image"><div><?php the_post_thumbnail(); ?></div><div class="home-project-hover opacity-zero"></div></div>
 		</a>
 		<p class="home-project-title"><?php the_title(); ?></p>
 	</div>
