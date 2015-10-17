@@ -26,19 +26,17 @@
 	<?php endif; ?>
 </div>
 
-<div class="project-info-wrapper row">
-	<div class="large-4 columns nopadding empty">&nbsp;</div>
-	<div class="large-4 columns nopadding contributors">
+	<div class="large-6 columns nopadding contributors">
 		<div class="contributors-content">
 			<?php echo $contributors; ?>
 		</div>
 	</div>
-	<div class="large-4 columns nopadding skills">
+	<div class="large-6 columns nopadding skills">
 		<div class="skills-content">
 			<?php echo $skills; ?>
 		</div>
 	</div>
-</div>
+
 <?php  endwhile; ?>
 <?php  endif; ?>
 </div><!-- .fade-delay -->
