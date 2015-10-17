@@ -7,6 +7,11 @@
   }
 }
 
+.project-info-wrapper {
+  height: auto;
+  background: #e2e2e2;
+}
+
 div.contributors, div.empty {
 	background: #e2e2e2;
 	min-height: 300px;
@@ -23,6 +28,12 @@ div.skills {
 
 div.contributors .contributors-content, div.skills .skills-content {
 	margin: 40px;
+}
+
+.single {
+  .contributors ul, .skills ul {
+    padding: 0 30px;
+  }
 }
 
 div.contributors ul li, div.skills ul li {
