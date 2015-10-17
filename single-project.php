@@ -18,15 +18,14 @@
 <div class="underscore-top"></div>
 <div class="project-blurb"><?php the_content(); ?></div>
 <div class="underscore-bottom"></div>
-<div class="flexslider">
-<ul class="slides">
+<div class="project-img">
 	<?php if(get_field('project_slider')): ?>
 		<?php while(has_sub_field('project_slider')): ?>
-			<li><img src="<?php  the_sub_field('project_slider_image'); ?>" /></li>
+			<img src="<?php  the_sub_field('project_slider_image'); ?>" />
 		<?php endwhile; ?>
 	<?php endif; ?>
-</ul>
-</div><!-- .flexslider -->
+</div>
+
 <div class="large-4 columns nopadding empty">&nbsp;</div>
 <div class="large-4 columns nopadding contributors">
 	<div class="contributors-content">
