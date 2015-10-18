@@ -21,8 +21,8 @@
 <div class="project-img">
 	<?php if(get_field('project_slider')): ?>
 		<?php while(has_sub_field('project_slider')): ?>
-			<div class="large-6 columns">
-				<img src="<?php  the_sub_field('project_slider_image'); ?>" />
+			<div <?php if(get_field('full_width_images') == 'No') : ?>class="large-6 columns"<?php endif; ?>>
+				<img src="<?php the_sub_field('project_slider_image'); ?>" />
 			</div>
 		<?php endwhile; ?>
 	<?php endif; ?>
