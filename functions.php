@@ -17,6 +17,7 @@ add_image_size( 'blog-featured', 260, 260, true );
 add_image_size( 'blog-featured-low', 130, 130, true );
 
 add_image_size( 'project-featured-low', 189, 189, true );
+add_image_size( 'project-768', 768, 694, true );
 
 /*-----------------------------------------------------------------------------------*/
 /*	Register WordPress Menus
