@@ -3,8 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <title><?php
-	bloginfo('name');
-	wp_title('|');
+	wp_title();
 	?></title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width" />
@@ -17,7 +16,7 @@
 <script src="https://use.typekit.net/dsx4odl.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
-<body <?php body_class($class); ?>>
+<body <?php body_class(); ?>>
 	<div id="container">
 		<div id="header">
 			<div class="row">
