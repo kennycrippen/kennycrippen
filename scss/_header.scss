@@ -29,6 +29,21 @@ nav {
 
 	a {
 		margin-left: 25px;
+		color: $orange;
+		transition: color 0.2s ease;
+		-webkit-transition: color 0.2s ease;
+		&:link {
+			color: $orange;
+		}
+		&:visited {
+			color: $orange;
+		}
+		&:hover {
+			color: $deeppurple;
+		}
+		&:active {
+			color: $orange;
+		}
 	}
 }
 
@@ -46,18 +61,13 @@ nav {
 }
 
 .logo-container {
-	background: $lightgray;
+	background: transparent;
 	display: block;
-	width: 144px;
-	padding: 22px;
+	width: 83px;
+	margin-top: 22px;
 	float: left;
 	position: relative;
 	z-index: 0;
-
-	@media (max-width: 480px) {
-		width: 120px;
-		padding: 17px;
-	}
 }
 
 .logo {
