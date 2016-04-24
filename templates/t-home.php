@@ -11,7 +11,7 @@ Template Name: Home Page
 		<img class="kenny-color" alt="Kenny Drawing Color" src="<?php  echo get_template_directory_uri(); ?>/images/kenny_color.png" />
 	</div>
 	<div class="fade-delay">
-		<h1 class="home-h1">WELL, HELLO.</h1>
+		<h2 class="home-h1">WELL, HELLO.</h2>
 		<div class="underscore-top"></div>
 		<p class="hm-about">I design and build websites in the wonderful city of Portland, Oregon. I am currently freelancing full time. A few exciting technologies I&#8217;m currently enjoying are Sass, jQuery, Bootstrap, Grunt, Git and WordPress. If you&#8217;re interested in hiring me for a freelance project or full time position feel free to call me up at 503&#8209;863&#8209;9697, check out my <a href="<?php  echo get_template_directory_uri(); ?>/kennycrippen-cv.pdf" target="_blank">r&eacute;sum&eacute;</a> or send me an <a href="mailto:hello@kennycrippen.com">email</a>.</p>
 		<div class="underscore-bottom"></div>

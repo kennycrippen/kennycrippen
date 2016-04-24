@@ -22,7 +22,7 @@
 			<div class="row">
 			<div class="header-inner large-12">
 			<a class="logo-container" href="<?php bloginfo('url'); ?>">
-				<img width="100" height="110" class="logo" alt="" src="<?php echo get_template_directory_uri(); ?>/images/svg/logo.svg" />
+				<img width="83" height="86" class="logo" alt="" src="<?php echo get_template_directory_uri(); ?>/images/svg/logo.svg" />
 			</a>
 			<nav>
 				<a href="#recentprojects" id="workscroll">WORK</a>

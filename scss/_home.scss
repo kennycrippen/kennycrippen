@@ -71,10 +71,6 @@ div.social {
 
 div.social img {
 	margin-right: 10px;
-  transition: opacity .25s ease-out;
-  -moz-transition: opacity .25s ease-out;
-  -webkit-transition: opacity .25s ease-out;
-  -o-transition: opacity .25s ease-out;
 
   &:hover {
     opacity: .75;
